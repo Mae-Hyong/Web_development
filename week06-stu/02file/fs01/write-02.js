@@ -7,4 +7,3 @@ if (fs.existsSync("text-1.txt")) {
 } else {
   writeFileSync("text-1.txt", data);
 }
-
